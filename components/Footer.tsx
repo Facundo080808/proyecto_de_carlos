@@ -121,22 +121,22 @@ export default function Footer() {
         </div>
 
         {/* Newsletter */}
-        <div className={cn("mt-16 pt-8 border-t", theme === "dark" ? "border-coffee-800" : "border-coffee-200")}>
+        {/* <div className={cn("mt-16 pt-8 border-t", theme === "dark" ? "border-coffee-800" : "border-coffee-200")}>
           <div className="grid grid-cols-2 [direction:rtl] md:grid-cols-2 gap-8 items-center ">
-            {/* <div>
+            <div>
               <h3 className="text-lg font-bold text-coffee-900 dark:text-coffee-100 mb-2">
                 Inscreva-se em nossa newsletter
               </h3>
               <p className="text-coffee-600 dark:text-coffee-400 mb-0">
                 Receba as últimas notícias e atualizações sobre futuros eventos.
               </p>
-            </div> */}
+            </div>
             <div className="flex flex-col justify-end sm:flex-row gap-2">
               <Input type="email" placeholder="Seu email" className="flex-1 border-coffee-300 dark:border-coffee-700" />
               <Button className="bg-brazil-green hover:bg-green-700 text-white">Inscrever-se</Button>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* Copyright */}
         <div className="mt-10 pt-6 border-t flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-coffee-500 dark:text-coffee-400">
