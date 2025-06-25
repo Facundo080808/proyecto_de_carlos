@@ -81,10 +81,10 @@ export default function Navbar() {
             >
               {theme === "dark" ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
             </button>
-            <Button className="bg-brazil-green hover:bg-green-700 text-white"><a href="#pricing">Inscrever-se</a></Button>
+            <Button  href={"#pricing"} className="bg-brazil-green hover:bg-green-700 text-white">Inscrever-se</Button>
           </div>
 
-          {/* Mobile Menu Button */}
+          {/* Mobile Menu Button <a href="#pricing">Inscrever-se</a> */}
           <div className="flex items-center md:hidden space-x-4">
             <button
               onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
@@ -125,7 +125,7 @@ export default function Navbar() {
                   {link.name}
                 </Link>
               ))}
-              <Button className="bg-brazil-green hover:bg-green-700 text-white w-full mt-4">Inscrever-se</Button>
+              <Button href={"#pricing"} className="bg-brazil-green hover:bg-green-700 text-white w-full mt-4">Inscrever-se</Button>
             </div>
           </motion.div>
         )}

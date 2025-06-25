@@ -150,11 +150,11 @@ export default function HeroSection() {
         className="flex flex-col sm:flex-row gap-4 mt-4"
       >
         <Button
-        
+          href={"#pricing"}
           size="lg"
           className="bg-gradient-to-r from-brazil-green to-green-600 hover:from-green-700 hover:to-green-600 text-white"
         >
-          <a href="#pricing">Garanta sua vaga</a>
+          Garanta sua vaga
           <ChevronRight className="ml-2 h-4 w-4" />
         </Button>
         <GoogleCalendarButton

@@ -12,10 +12,12 @@ export function GoogleCalendarButton({ event, label = "Adicionar ao Google Calen
   const url = generateGoogleCalendarUrl(event);
 
   return (
-    <Button asChild className={className} size={size} variant={variant}>
-      <a href={url} target="_blank" rel="noopener noreferrer">
-         {children || label}
-      </a>
+    <Button 
+    href={url} target={"_blank"}className={className} size={size} variant={variant}>
+      {children || label}
     </Button>
   );
 }
+
+{/* </a> */}
+{/* <a href={url} target="_blank" rel="noopener noreferrer"> */}
